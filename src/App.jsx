@@ -3,7 +3,7 @@ import Logo from "./assets/logo.png";
 import heroImage from "./assets/heroImg.png";
 import heroImage2 from "./assets/heroImg2.png";
 import heroImage3 from "./assets/heroImg3.png";
-import heroImage4 from "./assets/heroImg4.png"
+import heroImage4 from "./assets/heroImg4.png";
 
 function App() {
   return (
@@ -363,9 +363,9 @@ function App() {
               Start Your Fitness <br /> Journey today
             </p>
             <p className="pb-6 ml-24">
-              Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. A, odio
-              iste. Magnam reiciendis, <br /> quos esse optio magni fugit cupiditate
-              iusto! Architecto vitae nesciunt
+              Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit.
+              A, odio iste. Magnam reiciendis, <br /> quos esse optio magni
+              fugit cupiditate iusto! Architecto vitae nesciunt
             </p>
             <div className="grid grid-cols-4">
               <div className="bg-red-500 flex flex-col pt-7 pb-7 rounded-full px-7 mr-2">
@@ -393,6 +393,46 @@ function App() {
                 <p>Kcl 30</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="container pt-20">
+        <div className="grid grid-cols-2">
+          <div className="text-5xl font-bold">Our Professional Trainer Just for your Service</div>
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium vitae, ipsa necessitatibus ut dicta maiores atque, facere perferendis ducimus distinctio officia labore, animi cupiditate. Nostrum assumenda atque deserunt ratione.</div>
+        </div>
+      </section>
+
+      <section className="pt-16 ">
+        <div className="container grid lg:grid-cols-4 sm:grid-cols-2">
+          <div className="flex flex-col  gap-3">
+            <div className="h-80 w-56 bg-slate-500 rounded-full">
+              
+            </div>
+            <p className="font-semibold">Roshan Ranawaka</p>
+            <p className="font-semibold">Trainer</p>
+          </div>
+          <div className="flex flex-col  gap-3">
+            <div className="h-80 w-56 bg-slate-500 rounded-full">
+              
+            </div>
+            <p className="font-semibold">Roshan Ranawaka</p>
+            <p className="font-semibold">Trainer</p>
+          </div>
+          <div className="flex flex-col  gap-3">
+            <div className="h-80 w-56 bg-slate-500 rounded-full">
+              
+            </div>
+            <p className="font-semibold">Roshan Ranawaka</p>
+            <p className="font-semibold">Trainer</p>
+          </div>
+          <div className="flex flex-col  gap-3">
+            <div className="h-80 w-56 bg-slate-500 rounded-full">
+              
+            </div>
+            <p className="font-semibold">Roshan Ranawaka</p>
+            <p className="font-semibold">Trainer</p>
           </div>
         </div>
       </section>
